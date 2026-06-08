@@ -125,8 +125,11 @@ Maximum Profit = 3,900
 ## Project Members
 
 Norafiqah Najwa binti Mohd Afizan 2240244
+
 Nurien Aina binti Abdul Halim 2240246
+
 Muhammad Afiq Aiman bin Noor Kamaruzaman 2240237
+
 Ilham Fariq bin Shaharuddin 2240234
 
 ## Course Information
