@@ -6,23 +6,34 @@ Users can input flight routes, operational costs, passenger demand, and resource
 
 ## Features
 
-*User Registration and Login 
-*Secure Password Hashing 
-*Flight & Budget Optimization
-*Linear Programming Calculation
-*Real-Time Result Interpretation
-*Optimization History Storage
-*MySQL Database Integration
-*Responsive Bootstrap Interface
+User Registration and Login 
+
+Secure Password Hashing 
+
+Flight & Budget Optimization
+
+Linear Programming Calculation
+
+Real-Time Result Interpretation
+
+Optimization History Storage
+
+MySQL Database Integration
+
+Responsive Bootstrap Interface
 
 
 ## Technologies Used
 
-*PHP
-*MySQL
-*HTML5
-*XAMPP
-*phpMyAdmin
+PHP
+
+MySQL
+
+HTML5
+
+XAMPP
+
+phpMyAdmin
 
 
 ## System Modules
@@ -31,29 +42,38 @@ Provides an overview of SkyLink Airways and the system purpose including airline
 
 ### User Authentication
 
-*Register Account
-*Login Account
-*Logout Session
+Register Account
+
+Login Account
+
+Logout Session
 
 ### Flight Optimization Module
 
 Users enter:
 
-*Flight Route / Operation Name
-*Expected Passenger Demand
-*Operational Costs (fuel, crew, maintenance)
-*Aircraft Capacity Constraints
-*Available Fleet Resources
+Flight Route / Operation Name
+
+Expected Passenger Demand
+
+Operational Costs (fuel, crew, maintenance)
+
+Aircraft Capacity Constraints
+
+Available Fleet Resources
 
 The system calculates the optimal allocation of flights and resources.
 
 ### Result Module
 Displays:
 
-*Optimal Number of Flights per Route
-*Maximum Profit / Revenue
-*Resource Usage Summary (aircraft, crew, fuel)
-*Strategic Recommendations
+Optimal Number of Flights per Route
+
+Maximum Profit / Revenue
+
+Resource Usage Summary (aircraft, crew, fuel)
+
+Strategic Recommendations
 
 
 ### History Module
@@ -78,8 +98,9 @@ Install XAMPP
 ### Step 2
 Start:
 
-*Apache
-*MySQL
+Apache
+
+MySQL
 
 ### Step 3
 Copy project folder into:
