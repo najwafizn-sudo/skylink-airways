@@ -113,12 +113,15 @@ skylink_db.sql
 
 ### Step 7
 Open system:
-http://localhost/SAOS
+http://localhost/skylinkairways
 
 ### Example Case Study
 Objective Function:
+
 Maximize
+
 Z = 350X + 950Y
+
 Where:
 
 X = Number of Economy Passengers
@@ -128,12 +131,15 @@ Y = Number of Business Passengers
 Constraints:
 
 Seat Capacity Constraint
+
 X + Y ≤ 180
 
 Weight Constraint
+
 100X + 140Y ≤ 22000
 
 Non-negativity
+
 X ≥ 0, Y ≥ 0
 
 Result:
