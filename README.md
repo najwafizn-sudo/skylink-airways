@@ -133,13 +133,17 @@ Y = International Flight Route
 
 Constraints:
 200X + 300Y ≤ 5000  (Fuel Capacity)
+
 5X + 8Y ≤ 120       (Crew Availability)
+
 X + Y ≤ 40          (Fleet Limit)
 
 Result:
 
 Domestic Flights = 20
+
 International Flights = 10
+
 Maximum Profit = 3,900
 
 
