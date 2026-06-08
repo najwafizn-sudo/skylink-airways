@@ -1,22 +1,18 @@
-# skylink airways- Maximize ticket revenue of an airline
+# Skylink Airways- Maximize ticket revenue of an airline
 ## Project Overview
-SkyLink Airways Optimization System (SAOS) is a web-based Decision Support System developed using PHP and MySQL. The system assists airline management in optimizing flight operations, budget allocation and resource utilization using Linear Programming techniques.
+SkyLink Airways Optimization System is a web-based Decision Support System developed using PHP and MySQL. The system is designed to assists airline management in optimizing passenger allocation and maximizing revenue using Linear Programming techniques.
 
-Users can input flight routes, operational costs, passenger demand, and resource constraints to generate optimal decisions that maximize profit while maintaining operational efficiency.
+Users can input ticket prices, aircraft capacity and weight constraints anthe the system calculates the optimal number of passengers for each class (Economy and Business) to maximize total revenue. 
 
 ## Features
-
-User Registration and Login 
-
-Secure Password Hashing 
 
 Flight & Budget Optimization
 
 Linear Programming Calculation
 
-Real-Time Result Interpretation
+Real-Time Result Display
 
-Optimization History Storage
+Constraint-Based Decision Support 
 
 MySQL Database Integration
 
@@ -35,46 +31,43 @@ XAMPP
 
 phpMyAdmin
 
+GitHub
+
 
 ## System Modules
 ### Home Page
 Provides an overview of SkyLink Airways and the system purpose including airline optimization objectives.
 
-### User Authentication
-
-Register Account
-
-Login Account
-
-Logout Session
-
 ### Flight Optimization Module
 
 Users enter:
 
-Flight Route / Operation Name
+### General Specifications 
+Flight/Scenario Reference Title 
 
-Expected Passenger Demand
+### Objective Coefficients
+Economy Ticket Price (RM 350.00)
+Business Ticket Price (RM 950.00)
 
-Operational Costs (fuel, crew, maintenance)
+### System Constraints & Limitations
+Maximum Cabin Capacity 
+Maximum Payload Weight 
+Average Weight per Economy Passenger
+Average Weight per Business Passenger
 
-Aircraft Capacity Constraints
-
-Available Fleet Resources
-
-The system calculates the optimal allocation of flights and resources.
+Users then click:
+Run Optimization Model
 
 ### Result Module
 Displays:
 
-Optimal Number of Flights per Route
+Optimal Number of Economy Passengers
 
-Maximum Profit / Revenue
+Optimal Number of Business Passengers
 
-Resource Usage Summary (aircraft, crew, fuel)
+Maximum Revenue Generated
 
-Strategic Recommendations
-
+Resource Usage (Seats & Weight Utilization)
 
 ### History Module
 Stores and displays previous optimization results for management review.
@@ -123,28 +116,33 @@ Open system:
 http://localhost/SAOS
 
 ### Example Case Study
-Flight Route Optimization
 Objective Function:
-Maximize Z = 120X + 90Y
+Maximize
+Z = 350X + 950Y
 Where:
 
-X = Domestic Flight Route
-Y = International Flight Route
+X = Number of Economy Passengers
+Y = Number of Business Passengers
+
 
 Constraints:
-200X + 300Y ≤ 5000  (Fuel Capacity)
 
-5X + 8Y ≤ 120       (Crew Availability)
+Seat Capacity Constraint
+X + Y ≤ 180
 
-X + Y ≤ 40          (Fleet Limit)
+Weight Constraint
+100X + 140Y ≤ 22000
+
+Non-negativity
+X ≥ 0, Y ≥ 0
 
 Result:
 
-Domestic Flights = 20
+Economy Passengers = 140
 
-International Flights = 10
+Business Passengers = 40
 
-Maximum Profit = 3,900
+Maximum Revenue = RM 83,000
 
 
 ## Project Members
